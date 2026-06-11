@@ -37,6 +37,7 @@ Además, me encargué de administrar y analizar el cuestionario SUS (System Usab
 Quizá el mayor éxito de esta asignatura es que me ha dotado de un conjunto de herramientas mentales que ahora aplico inconscientemente en otras ramas de la carrera y en mis proyectos personales.
 
 SIBW (El Pollo Motrileño)
+
 Un ejemplo clarísimo de esto ocurrió recientemente, cuando estuve inmerso en un proyecto de desarrollo web para la asignatura de SIBW, donde tuvimos que crear El Pollo Motrileño, un portal web de noticias local. Antes de cursar DIU, me habría limitado a volcar el contenido HTML y CSS sin más, asegurándome únicamente de que las etiquetas cerraran bien.
 
 Sin embargo, esta vez me paré a estructurar la información siguiendo los principios de interfaz gráfica. Apliqué el concepto de espacios en blanco (white space) para dar respiro visual a la lectura de las noticias, entendiendo que el espacio vacío es un elemento de diseño tan importante como el texto mismo. Cuidé minuciosamente la legibilidad de las tipografías, el contraste del logotipo y trabajé a fondo la adaptación a dispositivos móviles. Me aseguré de que el tamaño de las fuentes fuera el adecuado y de que todos los enlaces a las noticias tuvieran un área táctil (touch target) lo bastante grande para que cualquier persona pudiera navegar desde su smartphone sin pulsar la noticia equivocada por error. Si todo llama la atención en una web, al final nada llama la atención, y eso es algo que tuve muy presente al definir la cabecera y el pie de página de este portal.
