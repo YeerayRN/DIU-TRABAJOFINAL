@@ -57,20 +57,18 @@ Gracias a esta asignatura, me siento verdaderamente capacitado para enfrentarme 
 Para fundamentar el diseño del ECOMERCADO UGR, se ha realizado un análisis heurístico y de usabilidad de plataformas existentes en el sector, evaluando su diseño bajo criterios objetivos.
 
 #### Análisis de Huerta Madrid
-*   **Usabilidad y Arquitectura de la Información:**
-Visibilidad y Arquitectura:
+*   **Visibilidad y Arquitectura:**
 Desde el primer momento al entrar en la página, queda claro que estamos tratando con la web de una empresa de agricultores que venden productos directamente de sus huertas. La página presenta un header con su logo y una barra de navegación que permite acceder a las distintas
 secciones de la página de manera ágil. Gracias a esta barra, el usuario puede acceder a la tienda y comenzar a seleccionar los productos que desee en un solo clic, lo cual es excelente. Sin embargo, al profundizar en la sección de la tienda, la arquitectura de la información empieza a presentar fricciones. El catálogo carece de un sistema de filtrado avanzado eficiente (por ejemplo, poder separar rápidamente verduras, frutas de temporada o cestas preconfiguradas). Al mostrar todos los productos en listas extensas, se corre el riesgo de incumplir la Ley de Hick, aumentando innecesariamente la carga cognitiva del usuario, que se ve obligado a hacer un scroll prolongado y a leer ítem por ítem para encontrar lo que busca.
 
-Consistencia y Estándares:
+*   **Consistencia y Estándares:**
 Analizando las heurísticas de Nielsen, la interfaz presenta deficiencias en la Visibilidad del estado del sistema. Faltan microinteracciones claras; por ejemplo, al pasar el cursor sobre los productos o los botones de compra, el feedback visual (como un cambio de color o una elevación de la tarjeta mediante CSS) es escaso o inexistente. Esto genera dudas sobre si un elemento es realmente clicable o no. Además, a nivel de consistencia, sería ideal que el diseño contara con breadcrumbs en las fichas de producto, para que el usuario siempre sepa en qué nivel de la tienda se encuentra y pueda retroceder sin depender exclusivamente del botón "Atrás" del navegador.
-
 
 *   **Adaptación a dispositivos (Responsive):**
 Teniendo en cuenta que el usuario típico consultará esta web desde su smartphone mientras organiza su compra semanal, la vista móvil presenta áreas de mejora. Al apilarse los elementos, algunos Touch Targets (áreas táctiles de los botones y enlaces) quedan demasiado juntos. Esto penaliza la ergonomía y aumenta la probabilidad de que el usuario pulse un producto o enlace equivocado por error. En la vista móvil, el contenido debería repriorizarse para evitar un desplazamiento vertical excesivo.
 
-*   **Accesibilidad:
-*   Para evaluar el nivel de inclusión del portal, he realizado una auditoría técnica tomando como referencia las pautas de accesibilidad WCAG 2.1 y utilizando herramientas automatizadas como Google Lighthouse y WAVE. Los resultados muestran varias barreras críticas que impiden una experiencia universal:
+*   **Accesibilidad:**
+Para evaluar el nivel de inclusión del portal, he realizado una auditoría técnica tomando como referencia las pautas de accesibilidad WCAG 2.1 y utilizando herramientas automatizadas como Google Lighthouse y WAVE. Los resultados muestran varias barreras críticas que impiden una experiencia universal:
 
 Problemas de Contraste (WCAG 1.4.3 - Contraste mínimo): Como suele ser habitual en plataformas de temática ecológica, se abusa de la paleta de colores verdes. He detectado textos descriptivos (como precios o detalles del envío) en verde claro o gris sobre fondos blancos, así como texto blanco superpuesto directamente a imágenes del huerto sin un filtro de oscurecimiento. Estos elementos no alcanzan el ratio mínimo de contraste (4.5:1), dificultando la lectura a personas con problemas de visión o a usuarios que navegan desde el móvil a plena luz del sol.
 
